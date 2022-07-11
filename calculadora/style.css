@@ -1,0 +1,98 @@
+body{
+    display:flex;
+    text-align:center;
+    align-items:center;
+    flex-direction:column;
+    margin:0;
+    text-shadow:0px 2px 0 black;
+    color:white;
+    font-family: arial;
+
+}
+
+
+h1{
+font-family: arial;
+margin:0;
+color:aquamarine;
+padding:20px
+
+}
+
+
+input{
+
+width:100%;
+height:40px;
+box-sizing:border-box;
+
+}
+
+
+#form{
+    display:flex;
+    text-align:center;
+    align-items:center;
+    flex-direction:column;
+    width:300px
+
+}
+
+
+button{
+
+background:rgb(70, 0, 128);
+color:white;
+border:none;
+border-radius:10px;
+box-sizing:border-box;
+width:50%;
+padding:10px;
+display:flex;
+justify-content: center;
+animation-name:ex;
+animation-duration:1.2s;
+animation-iteration-count: infinite;
+
+}
+
+
+.button{
+    background-color: blueviolet;
+    border-radius:10px;
+    width:80px;
+    animation-name:ex;
+animation-duration:1.2s;
+animation-iteration-count: infinite;
+
+}
+
+
+.container{
+    width:500px;
+    height:450px;
+    background-color: rgb(82, 5, 133);
+    border-radius:10px;
+
+}
+
+
+.calculadora{
+    margin-top:20px;
+    display:flex;
+    text-align:center;
+    align-items:center;
+    flex-direction:column;
+
+}
+
+
+@keyframes ex {
+
+    0% {background-color:aquamarine;}
+    25% {background-color:rgb(31, 46, 180);}
+    50% {background-color:rgb(123, 56, 143);}
+    75% {background-color:rgb(150, 31, 180);}
+    100%{background-color:rgba(41, 2, 104, 0.966);}
+    
+}
