@@ -1,2 +1,0 @@
-Arquivo criado sem utilizar 'with'.
-Tem que fechar manualmente.
